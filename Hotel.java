@@ -9,6 +9,7 @@ public class Hotel {
     private List<Room> rooms;
     private List<RoomType> roomTypes;
     private List<Reservation> reservations;
+    private List<Guest> guests;
 
     public Hotel(String name) {
         if (name == null || name.isEmpty()) {
@@ -18,6 +19,7 @@ public class Hotel {
         this.rooms = new ArrayList<>();
         this.roomTypes = new ArrayList<>();
         this.reservations = new ArrayList<>();
+        this.guests = new ArrayList<>();
     }
 
     public void addRoomType(RoomType type) {
@@ -30,6 +32,14 @@ public class Hotel {
     
     public List<Room> getRooms() {
         return rooms;
+    }
+    
+    public void addGuest(Guest guest) {
+        if (guest != null) guests.add(guest);
+    }
+    
+    public List<Guest> getGuests() {
+        return guests;
     }
     
     // Checks if we have enough physical rooms of this type
