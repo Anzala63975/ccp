@@ -1,4 +1,6 @@
 Hotel Room Reservation System
+Last updated: 12/25/2025
+
 Project Overview
 The Hotel Room Reservation System is an object-oriented Java application that allows management of hotels, rooms, guests, and reservations. The system is implemented following UML design specifications, clean code principles, and defensive programming techniques.
 Key objectives:
