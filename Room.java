@@ -1,4 +1,3 @@
-package HotelSystem;
 
 public class Room {
     private int roomNumber;

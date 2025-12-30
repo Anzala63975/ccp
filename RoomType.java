@@ -1,4 +1,3 @@
-package HotelSystem;
 
 public class RoomType {
     private String name;
